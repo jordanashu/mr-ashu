@@ -1,0 +1,609 @@
+.wapper{
+    overflow-x: hidden;
+}
+
+.nav {
+
+    
+    height: 60px;
+  
+   top: 0;
+    
+  width: 100%;
+  
+   
+   box-shadow:4px 4px 20px 10px rgb(90, 232, 47);
+   
+}
+
+
+.nav:hover{
+   
+background-color: gold;
+}
+
+
+
+.nav ul{
+    list-style-type:none;
+    padding:5px;
+    
+    display: flex;
+    font-weight:lighter;
+
+   
+    justify-content:space-evenly;
+
+}
+
+
+   nav ul li a{
+    color: #03040d;
+    text-decoration: none;
+   }
+
+
+.nav ul li {
+
+    
+    padding: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    
+color: rgb(0, 0, 0);
+
+}
+
+.nav ul li a:hover{
+
+    
+    color: rgb(7, 197, 250);
+
+}
+
+
+
+
+
+
+
+@media all and (max-width:640px)
+{
+    #qq{height:auto;
+
+    }
+
+    nav ul{
+        
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+.main{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+justify-content: space-around;
+  
+  
+}
+
+
+
+
+.mright{
+    height: 500px;
+    width: 550px;
+   color:greenyellow;
+   font-size: 15px;
+}
+
+
+
+/* extra */
+
+h1 {
+    position: relative;
+    
+  
+    font-weight: bold;
+   
+    overflow: hidden;
+  }
+  
+  h1 .hi {
+    display: inline-block;
+  }
+  
+  h1 .text {
+     color: gold;
+     font-size: 95px;
+     font-weight: bold;
+    
+    
+  }
+  
+  h1 .box {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    height: 1vw;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- */
+
+
+.mmid{
+    height: 500px;
+    width: 250px;
+
+    
+
+}
+
+
+
+
+
+
+.mleft{
+    height: 500px;
+    width: 400px;
+
+  
+
+}
+
+
+
+
+
+#img{
+    justify-items:flex-end;
+    margin-left: 0px;
+}
+
+
+#midimg1{
+    
+    padding-left: px;
+}
+
+
+#midimg2{
+    
+    padding-left: 170px;
+}
+
+
+
+
+
+
+/* -----------------second section ---------------- */
+
+
+
+
+
+
+.mainone{
+    margin-top: 125px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+  
+}
+
+
+
+
+.mainoneleft{
+    height: 500px;
+    width: 900px;
+ 
+   
+
+}
+
+.mainh1{
+   font-size: 40px;
+   color: ghostwhite;
+
+}
+
+.code{
+    color: gold;
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight:900px;
+}
+
+
+#h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 450;
+    color:greenyellow;
+}
+
+#b{
+    font-weight: bold;
+    color:gold;
+}
+
+
+@media all and (max-width:640px)
+{
+    .mainone{
+        flex-direction: wrap;
+        width: auto;
+
+    }
+
+    .mainh1{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .code{
+        font-size: 30px;
+    }
+
+    .mainoneright{
+        flex-direction: wrap;
+    }
+
+    .mainoneleft{
+        flex-direction: column;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+
+/* button  */
+
+
+
+
+.button {
+    background-color: #4c51af; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+
+  .btn1 {
+    background-color: transparent;
+    color: black; 
+    border: 2px solid cyan;
+  }
+  
+  .btn1:hover {
+    background-color:rgb(37, 70, 131);
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+  .btn2 {
+    background-color: transparent;
+    color: black; 
+    border: 2px solid cyan;
+  }
+  
+  .btn2:hover {
+    background-color:rgb(37, 70, 131);
+    color: white;
+  }
+
+
+
+
+
+.button a{
+    text-decoration: none;
+    list-style-type: none;
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainoneright{
+    height: 600px;
+    width: 350px;
+  
+    justify-content: space-evenly;
+    
+}
+
+
+
+.mainoneright{
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+
+.frontend ul li{
+    
+    list-style-type: none;
+    font-size: x-large;
+    padding: 5px;
+    color:cyan;
+    width: 100px;
+    
+    font-weight:500;
+}
+
+        
+.backend  ul li{
+    
+    list-style-type: none;
+   
+    width: 100px;
+   
+    padding: 5px;
+    font-weight:500;
+}
+
+
+
+.contact{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.if
+{
+    display: flex;
+    flex-wrap:wrap;
+   
+    width: 600px;
+    height: 400px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+
+
+.ff{
+
+    width: 500px;
+    height: 40px;
+    margin-top: 19px;
+    
+    border: 1px solid rgb(15, 3, 3);
+    border-radius: 14px ;
+    
+}
+
+.mm{
+    margin-top: 15px;
+    height: 80px;
+    width: 500px;
+    border-radius: 14px;
+    border: 1px solid rgb(15, 3, 3);
+}
+
+
+.fbutton{
+    
+
+    background-color: #03040d; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+
+
+.fbutton:hover {
+    background-color:rgb(16, 181, 65);
+    color: white;
+  }
+
+
+  @media all and (max-width:640px)
+{
+
+   .contact{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+    
+
+
+}
+
+
+
+.footer{
+
+
+    width: 100%;
+    min-height: 180px;
+   
+         margin-top: 20px;
+
+
+
+
+background-color: rgb(24, 53, 158);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+
+.lfooter{
+    width: 600px;
+    display: flex;
+   
+    flex: wrap;
+    height: 250px;
+    gap:1.2rem;
+   
+
+}
+
+.lfooter div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+    margin-top: 115px;
+    text-decoration: none;
+
+}
+.lfooter div a:hover{
+    color:orange;
+}
+
+
+
+.rfooter{
+
+    width: 600px;
+    display: flex;
+    
+   
+  
+    justify-content: space-evenly;
+    
+
+    
+    height: 250px;
+    
+}
+
+
+.rfooter img{
+
+    margin-top: 100px;
+}
