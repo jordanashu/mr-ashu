@@ -1,4 +1,4 @@
 # mr-ashu
 
 Link -
-mr-ashutosh.netlify.app
+https://mr-ashutosh.netlify.app/
